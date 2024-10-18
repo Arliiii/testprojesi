@@ -3,15 +3,15 @@
     padding: 0 80px;
     position: relative;
     width: 100%;
-    min-height: 100vh;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  }
-  
-  .next-btn, .back-btn {
+}
+
+.next-btn,
+.back-btn {
     position: absolute;
     top: 50%;
     right: 0;
@@ -20,73 +20,74 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #483D8B;
-  }
-  
-  .back-btn {
+    background: #483d8b;
+}
+
+.back-btn {
     right: auto;
     left: 0;
-  }
-  
-  .slider {
+}
+
+.slider {
     overflow: hidden;
-  }
-  
-  .slider ul {
+}
+
+.slider ul {
     display: flex;
     width: 200%;
     overflow-x: hidden;
     transition: 0.5s;
-  }
-  
-  .slider ul li {
+}
+
+.slider ul li {
     list-style: none;
     width: 50%;
     padding: 20px;
-  }
-  
-  .slide {
+}
+
+.slide {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
     padding: 40px;
     border-radius: 10px;
     color: #676767;
     line-height: 1.4;
-  }
-  
-  .slide img {
+}
+
+.slide img {
     width: 65px;
     border-radius: 50px;
     margin-right: 10px;
-    border: 4px solid #483D8B;
-  }
-  
-  .user-info {
+    border: 4px solid #483d8b;
+}
+
+.user-info {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     font-size: 15px;
-  }
-  
-  .user-info h3 {
-    color: #483D8B;
-  }
-  
-  @media (max-width: 800px) {
+}
+
+.user-info h3 {
+    color: #483d8b;
+}
+
+@media (max-width: 800px) {
     .testimonials {
-      padding: 0 40px;
+        padding: 0 40px;
     }
-    .next-btn, .back-btn {
-      padding: 10px;
-      width: 35px;
+    .next-btn,
+    .back-btn {
+        padding: 10px;
+        width: 35px;
     }
     .testimonials ul li {
-      padding: 10px;
+        padding: 10px;
     }
     .slide {
-      padding: 10px;
+        padding: 10px;
     }
     .slide img {
-      width: 50px;
-      border: 3px solid #483D8B;
+        width: 50px;
+        border: 3px solid #483d8b;
     }
-  }
+}
